@@ -1,0 +1,14 @@
+{
+    // tsconfig.json是ts編譯器的配置文件，ts編譯器可以根據它的信息來對代碼進行編譯
+    // "include" 用來指定哪些ts文件需要被編譯
+    // 路徑: ** 表示任意目錄
+    // 路徑:  * 表示任意文件
+    // "exclude" 不需要被編譯的文件目錄
+    // 默認值：["node_modules", "bower_components", "jspm_packages"]
+    "include": [
+        "./src/**/*"
+    ],
+    "exclude": [
+        "./src/hello/**/*"
+    ]
+}

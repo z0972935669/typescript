@@ -237,6 +237,10 @@
 
   - tsconfig.json是一个JSON文件，添加配置文件后，只需只需 tsc 命令即可完成对整个项目的编译
 
+  - ```powershell
+    tsc -w
+    ```
+
   - 配置选项：
 
     - include
